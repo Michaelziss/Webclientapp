@@ -11,7 +11,7 @@
 <plugin name="cordova-plugin-camera" spec="2.3.0">
 <variable name="CAMERA_USAGE_DESCRIPTION" value=" "/>
 <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value=" "/>
-<plugin name="InAppBrowser" value="CDVInAppBrowser" />
+
 <plugin name="cordova-plugin-compat" spec="1.0.0"/>
 <plugin name="cordova-plugin-geolocation" spec="2.2.0"/>
 <content src="index.html" />
