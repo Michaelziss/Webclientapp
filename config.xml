@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" android-versionCode="1" version="0.7.6" id="CONETAPP"  >
-<name>CO.NET APP</name>
+<name>table APP</name>
 <description></description>
 <author>Michael Ziß</author>
 <plugin name="cordova-plugin-crosswalk-webview" source="npm" version="2.2.0" />
@@ -12,8 +12,6 @@
 <variable name="CAMERA_USAGE_DESCRIPTION" value=" "/>
 <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value=" "/>
 </plugin>
-<plugin name="cordova-plugin-compat" spec="1.0.0"/>
-<plugin name="cordova-plugin-geolocation" spec="2.2.0"/>
 <content src="index.html" />
 <access origin="*" />
 <access origin="http://127.0.0.1*"/>
