@@ -8,6 +8,11 @@
         <script type="text/javascript" charset="utf-8" src="scripts/main.js"></script>
     </head>
     <body>
+        <script>
+            function test(){
+        window.open("http://localhost/astamm/tables", "_self");
+            }
+        </script>
         <div class="header">
             <h1>InAppBrowser Sample</h1>
         </div>
@@ -22,7 +27,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <button class="button" id="openExternalPDF">Open online PDF</button>
+                    <button class="button" onclick="test()">Open online PDF</button>
                 </div>
                 <div class="col">
                     <button class="button" id="openExternalInSystemBrowser">Open in system browser.</button>
