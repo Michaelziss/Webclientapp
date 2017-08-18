@@ -9,10 +9,14 @@
     <body>
         <script>
              document.addEventListener("deviceready",onDeviceReady,false);
-           function onDeviceReady(){
+           function onDeviceReady1(){
         window.open("http://192.168.178.100/blog", "_self","location=no");
             }
         </script>
-       <!-- <input type="file" name="boak" id="boak" />-->
-    </body>
+ <form action="/astamm/posts/add/20" id="PostAddForm" enctype="multipart/form-data" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div> <div class="input text"><input name="data[Post][owner]" hidden="hidden" maxlength="50" type="text" value="boaker" id="PostOwner"/></div> <div class="input textarea"><label for="PostContent">Content</label><textarea name="data[Post][content]" cols="30" rows="6" id="PostContent"></textarea></div>  <div class="input file"><input type="file" name="data[Post][image]" id="PostImage"/></div> <input name="submit" type="submit" value="Save"/> </form>		</div>
+
+	</div>
+	</body>
+
+
 </html>
