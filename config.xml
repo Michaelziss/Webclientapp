@@ -10,7 +10,7 @@
 <plugin name="cordova-plugin-whitelist" spec="1.2.2"/>
 <plugin name="cordova-plugin-file-transfer" />
 <plugin name="cordova-plugin-file" />
-<plugin name="cordova-plugin-inappbrowser" />
+<plugin name="cordova-plugin-crosswalk-webview" />
 <plugin name="cordova-plugin-camera" spec="2.3.0">
 <variable name="CAMERA_USAGE_DESCRIPTION" value=" "/>
 <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value=" "/>
