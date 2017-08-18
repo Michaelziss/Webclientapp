@@ -11,6 +11,7 @@
 <plugin name="cordova-plugin-file-transfer" />
 <plugin name="cordova-plugin-file" />
 <plugin name="cordova-plugin-inappbrowser" value="CDVInAppBrowser" />
+ <plugin spec="https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git" version="1.1.0" source="git" />
 <plugin name="cordova-plugin-camera" spec="2.3.0">
 <variable name="CAMERA_USAGE_DESCRIPTION" value=" "/>
 <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value=" "/>
