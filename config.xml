@@ -8,7 +8,7 @@
 <plugin name="cordova-plugin-device" spec="1.1.2"/>
 <plugin name="cordova-plugin-splashscreen" spec="3.2.2"/>
 <plugin name="cordova-plugin-whitelist" spec="1.2.2"/>
-<plugin name="cordova-plugin-file-chooser" />
+<plugin name="cordova-plugin-file-transfer" />
 <plugin name="cordova-plugin-inappbrowser" value="CDVInAppBrowser" />
 <plugin name="cordova-plugin-camera" spec="2.3.0">
 <variable name="CAMERA_USAGE_DESCRIPTION" value=" "/>
