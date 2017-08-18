@@ -3,7 +3,7 @@
 <name>table APP</name>
 <description></description>
 <author>Michael Ziß</author>
-<plugin name="cocoons.io" />
+<plugin name="cocoon-cloud-sdk" />
 <plugin name="cordova-plugin-statusbar" spec="2.1.3"/>
 <plugin name="cordova-plugin-device" spec="1.1.2"/>
 <plugin name="cordova-plugin-splashscreen" spec="3.2.2"/>
